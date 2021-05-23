@@ -11,5 +11,5 @@ $ yarn install
 ### Run the application
 
 ```shell
-$ yarn serve
+$ yarn dev
 ```
