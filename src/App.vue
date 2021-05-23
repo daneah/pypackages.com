@@ -8,8 +8,12 @@
     </p>
 
     <p>
-      I'm currently writing <em>Publishing Python Packages</em>, a book about creating and streamlining a repeatable process for authoring and maintaining Python packages.
+      I'm currently writing <strong><em>Publishing Python Packages</em></strong>, a book about creating and streamlining a repeatable process for authoring and maintaining Python packages.
       Whether you're looking to create your first published Python package or trying to reduce the maintenance burden of the packages you already work on, <em>Publishing Python Packages</em> has something for you.
+    </p>
+
+    <p>
+      Sign up below to be the first to know about updates on the book&mdash;I'm currently working toward making the book available in Manning's early access program (MEAP), where you can provide feedback as the book evolves.
     </p>
 
     <SignupForm class="email-signup" />
@@ -17,6 +21,10 @@
     <p>
       <Link href="https://dane.engineering" target="_blank" trusted>Dane Hillard</Link> is a second-time author with Manning Books.
       His first book, <em><Link href="https://thepythonpro.com" target="_blank" trusted>Practices of the Python Pro</Link></em>, has sold thousands of copies internationally and is translated into Korean and Chinese.
+    </p>
+
+    <p>
+      To learn the basics of Python packaging, head over to the official <Link href="https://packaging.python.org/" target="_blank">Python Packaging User Guide</Link>.
     </p>
 
     <div class="footer">
