@@ -10,6 +10,7 @@
       class="required email"
       name="EMAIL"
       type="email"
+      placeholder="youre@thebomb.com"
     >
       Email
     </TextInput>
