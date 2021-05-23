@@ -1,0 +1,68 @@
+:root {
+  --font-family-body: "Open Sans", Helvetica, Arial, sans-serif;
+  --font-family-heading: "Arbutus Slab", Times, serif;
+  --font-size-body: 1.2rem;
+  --font-size-heading: 2.4rem;
+  --font-weight-bold: 700;
+
+  --color-gainsboro: #DCE1DE;
+  --color-eton-blue: #9CC5A1;
+  --color-shiny-shamrock: #49A078;
+  --color-skobeloff: #216869;
+  --color-dark-jungle-green: #1F2421;
+  --color-jungle-green: #5e6d64;
+
+  --color-font: var(--color-dark-jungle-green);
+  --color-font-muted: var(--color-jungle-green);
+  --color-background: var(--color-gainsboro);
+  --color-interactive-primary: var(--color-shiny-shamrock);
+  --color-interactive-text: var(--color-shiny-shamrock);
+
+  --spacing-cozy: 0.5rem;
+  --spacing-comfortable: 1.5rem;
+  --spacing-roomy: 3rem;
+
+  --border-radius-button: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  color: var(--color-font);
+  font-size: var(--font-size-body);
+  font-family: var(--font-family-body);
+}
+
+body {
+  padding: var(--spacing-roomy);
+  background: var(--color-background);
+
+  @media screen and (max-width: 600px) {
+    padding: var(--spacing-comfortable);
+  }
+}
+
+* + * {
+  margin-top: var(--spacing-comfortable);
+}
+
+$levels: 6;
+@for $level from 1 through $levels {
+  .heading--#{$level} {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-heading);
+    font-weight: normal;
+  }
+}
+
+p {
+  max-width: 65ch;
+  text-align: justify;
+  line-height: 1.4;
+
+  & + p {
+    text-indent: 1.5rem;
+  }
+}
+
