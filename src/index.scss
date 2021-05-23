@@ -5,6 +5,10 @@
   --font-size-heading: 2.4rem;
   --font-weight-bold: 700;
 
+  @media screen and (max-width: 600px) {
+      --font-size-body: 1rem;
+  }
+
   --color-gainsboro: #DCE1DE;
   --color-eton-blue: #9CC5A1;
   --color-shiny-shamrock: #49A078;

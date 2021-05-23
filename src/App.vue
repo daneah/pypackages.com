@@ -61,6 +61,8 @@ export default {
   grid-template-areas:
     ". content .";
   grid-template-columns: auto minmax(300px, 800px) auto;
+
+  margin-top: 0;
 }
 
 .content {
