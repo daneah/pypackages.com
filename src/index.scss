@@ -3,6 +3,7 @@
   --font-family-heading: "Arbutus Slab", Times, serif;
   --font-size-body: 1.2rem;
   --font-size-heading: 2.4rem;
+  --font-size-huge: 3rem;
   --font-weight-bold: 700;
 
   @media screen and (max-width: 600px) {
@@ -66,7 +67,19 @@ p {
   line-height: 1.4;
 
   & + p {
-    text-indent: 1.5rem;
+    text-indent: var(--spacing-comfortable);
   }
 }
 
+ul {
+  margin-left: var(--spacing-roomy);
+  text-align: left;
+
+  li {
+    margin-top: 0;
+  }
+}
+
+hr {
+  border: 1px solid var(--color-jungle-green);
+}
