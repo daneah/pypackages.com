@@ -1,10 +1,33 @@
 <template>
   <div class="content">
-    <header>
+    <div class="twitter-wrapper">
+      <div class="sticky-wrapper">
+        <a
+            href="https://twitter.com/intent/tweet?screen_name=easyaspython&ref_src=twsrc%5Etfw"
+            class="twitter-mention-button"
+            data-show-screen-name="false"
+            data-dnt="true"
+            data-show-count="false"
+        >
+          Tweet to @easyaspython
+        </a>
+        <a
+            class="twitter-timeline"
+            target="_blank"
+            rel="noopener nofollow"
+            href="https://twitter.com/easyaspython/timelines/1405995131099127811?ref_src=twsrc%5Etfw"
+            data-height="500"
+        >
+          Praise for <em>Publishing Python Packages</em> on Twitter
+        </a>
+      </div>
+    </div>
+
+    <header class="header">
       <h1 class="heading--1">Publishing Python Packages</h1>
       <span>by <Link href="https://dane.engineering" target="_blank" trusted>Dane Hillard</Link></span>
     </header>
-    <main>
+    <main class="main">
       <p>
         The life of a package maintainer can be hard.
         Beyond writing working code, you have to triage issues, review pull requests, and create releases regularly.
@@ -85,17 +108,33 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
+.content {
   display: grid;
   grid-template-areas:
-    ". content .";
-  grid-template-columns: auto minmax(300px, 800px) auto;
+    ". header . twitter"
+    ". main . twitter"
+    ". footer . .";
+  grid-template-columns: auto minmax(300px, 800px) auto 250px;
 
   margin-top: 0;
+
+  @media screen and (max-width: 1240px) {
+    grid-template-areas:
+      ". header . ."
+      ". main . ."
+      ". twitter . ."
+      ". footer . .";
+    grid-template-columns: auto minmax(300px, 800px) auto;
+  }
 }
 
-.content {
-  grid-area: content;
+.header {
+  margin-top: 0;
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
 }
 
 .divider {
@@ -103,6 +142,7 @@ export default {
 }
 
 .footer {
+  grid-area: footer;
   margin-top: var(--spacing-roomy);
 }
 
@@ -113,5 +153,20 @@ export default {
 .copyright {
   color: var(--color-font-muted);
   font-style: italic;
+}
+
+.twitter-wrapper {
+  grid-area: twitter;
+
+  @media screen and (max-width: 1240px) {
+    margin-top: var(--spacing-roomy);
+  }
+}
+
+.sticky-wrapper {
+  @media screen and (min-width: 1241px) {
+    position: sticky;
+    top: var(--spacing-roomy);
+  }
 }
 </style>
