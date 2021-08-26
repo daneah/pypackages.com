@@ -115,6 +115,7 @@ export default {
 .cover {
   display: block;
   margin: 0 auto var(--spacing-roomy) auto;
+  max-width: 100%;
 }
 
 .divider {
