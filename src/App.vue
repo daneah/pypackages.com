@@ -12,7 +12,13 @@
       </p>
 
       <p>
-        I'm currently writing <strong><em>Publishing Python Packages</em></strong>, a book about creating a streamlined, repeatable process for authoring and maintaining Python packages.
+        I'm currently writing <strong><em><Link href="https://www.manning.com/books/publishing-python-packages" target="_blank">Publishing Python Packages</Link></em></strong>,
+        a book about creating a streamlined, repeatable process for authoring and maintaining Python packages.
+      </p>
+
+      <Promo />
+
+      <p>
         Whether you're looking to create your first published Python package or trying to reduce the maintenance burden of the packages you already work on, <em>Publishing Python Packages</em> has something for you.
       </p>
 
@@ -63,6 +69,7 @@
 <script>
 import Button from "./components/Button.vue";
 import Link from "./components/Link.vue";
+import Promo from "./components/Promo.vue";
 import SignupForm from "./components/SignupForm.vue";
 import Visuals from "./components/Visuals.vue";
 
@@ -71,6 +78,7 @@ export default {
   components: {
     Button,
     Link,
+    Promo,
     SignupForm,
     Visuals,
   },

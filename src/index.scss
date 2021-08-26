@@ -1,6 +1,7 @@
 :root {
   --font-family-body: "Open Sans", Helvetica, Arial, sans-serif;
   --font-family-heading: "Arbutus Slab", Times, serif;
+  --font-family-fixed-width: "Fira Code", "Consolas", "Courier", monospace;
   --font-size-body: 1.2rem;
   --font-size-heading: 2.4rem;
   --font-size-huge: 3rem;
@@ -82,4 +83,9 @@ ul {
 
 hr {
   border: 1px solid var(--color-jungle-green);
+}
+
+code {
+  font-family: var(--font-family-fixed-width);
+  font-weight: var(--font-weight-bold);
 }
