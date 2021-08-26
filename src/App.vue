@@ -1,8 +1,14 @@
 <template>
   <div class="content">
-    <header>
-      <h1 class="heading--1">Publishing Python Packages</h1>
-      <span>by <Link href="https://dane.engineering" target="_blank" trusted>Dane Hillard</Link></span>
+    <header class="header">
+      <img
+        class="cover"
+        src="/publishing-python-packages-cover.jpg"
+      />
+      <div class="title">
+          <h1 class="heading--1">Publishing Python Packages</h1>
+          <span>by <Link href="https://dane.engineering" target="_blank" trusted>Dane Hillard</Link></span>
+      </div>
     </header>
     <main>
       <p>
@@ -104,6 +110,11 @@ export default {
 
 .content {
   grid-area: content;
+}
+
+.cover {
+  display: block;
+  margin: 0 auto var(--spacing-roomy) auto;
 }
 
 .divider {
