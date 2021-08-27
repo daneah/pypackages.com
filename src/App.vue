@@ -18,7 +18,7 @@
       </p>
 
       <p>
-        I'm currently writing <strong><em><Link href="https://www.manning.com/books/publishing-python-packages" target="_blank">Publishing Python Packages</Link></em></strong>,
+        I'm currently writing <strong><em><Link href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e" target="_blank">Publishing Python Packages</Link></em></strong>,
         a book about creating a streamlined, repeatable process for authoring and maintaining Python packages.
       </p>
 
