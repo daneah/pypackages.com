@@ -25,32 +25,29 @@
       <Promo />
 
       <p>
-        Whether you're looking to create your first published Python package or trying to reduce the maintenance burden of the packages you already work on, <em>Publishing Python Packages</em> has something for you.
+        Whether you're looking to create your first published Python package or trying to reduce the maintenance burden of the packages you already work on, <em>Publishing Python Packages</em> has something for you:
       </p>
 
+      <ul>
+        <li>
+          Create an effective development environment for package authoring.
+        </li>
+        <li>
+          Explore the anatomy of a Python package in depth.
+        </li>
+        <li>
+          Create an automated, continuous integration pipeline for code quality and testing.
+        </li>
+        <li>
+          Publish a Python package to the <Link href="https://pypi.org" target="_blank">Python Package Index</Link> (PyPI) and learn how to publish packages to private repositories for your organization.
+        </li>
+      </ul>
+
       <p>
-        Sign up below to be the first to know about updates on the book&mdash;I'm currently working toward making the book available in Manning's early access program (MEAP), where you can provide feedback as the book evolves.
+        Sign up below to be the first to know about updates on the book&mdash;the first {{ numChapters }} chapters are available in Manning's early access program (MEAP), where you can provide feedback as the book evolves.
       </p>
 
       <SignupForm class="email-signup" />
-
-      <p>
-        In <em>Publishing Python Packages</em>, you'll:
-        <ul>
-          <li>
-            Create an effective development environment for package authoring.
-          </li>
-          <li>
-            Explore the anatomy of a Python package in depth.
-          </li>
-          <li>
-            Create an automated, continuous integration pipeline for code quality and testing.
-          </li>
-          <li>
-            Publish a Python package to the <Link href="https://pypi.org" target="_blank">Python Package Index</Link> (PyPI).
-          </li>
-        </ul>
-      </p>
 
       <Visuals />
 
@@ -87,6 +84,11 @@ export default {
     Promo,
     SignupForm,
     Visuals,
+  },
+  data () {
+    return {
+        numChapters: "four",
+    }
   },
   computed: {
     copyrightYear () {
