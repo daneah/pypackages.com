@@ -4,8 +4,8 @@
       <img
         class="cover"
         src="/publishing-python-packages-cover.jpg"
-        height="264"
-        width="331"
+        width="264"
+        height="331"
       />
       <div class="title">
           <h1 class="heading--1">Publishing Python Packages</h1>
