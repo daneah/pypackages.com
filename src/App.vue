@@ -1,5 +1,7 @@
 <template>
   <div class="content">
+    <ProductHuntBar v-if="fromProductHunt" />
+
     <header class="header">
       <img
         class="cover"
@@ -75,6 +77,7 @@
 import Button from "./components/Button.vue";
 import Link from "./components/Link.vue";
 import Promo from "./components/Promo.vue";
+import ProductHuntBar from "./components/ProductHuntBar.vue";
 import SignupForm from "./components/SignupForm.vue";
 import Visuals from "./components/Visuals.vue";
 
@@ -84,6 +87,7 @@ export default {
     Button,
     Link,
     Promo,
+    ProductHuntBar,
     SignupForm,
     Visuals,
   },
@@ -97,7 +101,10 @@ export default {
       const firstYear = 2021;
       const currentYear = new Date().getFullYear();
       return (currentYear > firstYear) ? `${firstYear}–${currentYear}` : firstYear;
-    }
+    },
+    fromProductHunt () {
+      return new URLSearchParams(window.location.search).get("ref") === "producthunt";
+    },
   }
 }
 </script>
@@ -120,6 +127,10 @@ export default {
   display: block;
   margin: 0 auto var(--spacing-roomy) auto;
   max-width: 100%;
+
+  @at-root #{&}--with-banner {
+    margin-top: var(--spacing-roomy);
+  }
 }
 
 .divider {
