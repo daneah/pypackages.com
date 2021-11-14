@@ -32,12 +32,10 @@ export default {
 .offer {
   margin: 0;
   text-align: left;
+  color: var(--color-font-inverse);
 
-  &, .offer__code {
+  @at-root #{&}__code {
     color: var(--color-font-inverse);
-  }
-
-  .offer__code {
     font-family: var(--font-family-fixed-width);
     font-weight: var(--font-weight-bold);
   }
