@@ -17,7 +17,7 @@ export default {
     return {
       code: "mlhillard350",
       benefit: "Get 50% off in early access",
-      expiration: new Date("2021-09-02"),
+      expiration: new Date("2021-11-23"),
     }
   },
   computed: {
@@ -34,5 +34,6 @@ export default {
 .promo {
   padding: var(--spacing-roomy);
   background: var(--color-eton-blue);
+  border-radius: 2px;
 }
 </style>
