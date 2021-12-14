@@ -14,6 +14,11 @@
           <span>by <Link href="https://dane.engineering" target="_blank" trusted>Dane Hillard</Link></span>
       </div>
     </header>
+    <aside class="copies-sold">
+        <em>
+            Over <strong>{{numCopiesSold}}</strong> copies sold so far!
+        </em>
+    </aside>
     <main>
       <p>
         The life of a package maintainer can be hard.
@@ -93,7 +98,8 @@ export default {
   },
   data () {
     return {
-        numChapters: "four",
+        numChapters: "five",
+        numCopiesSold: 465,
     }
   },
   computed: {
@@ -148,5 +154,11 @@ export default {
 .copyright {
   color: var(--color-font-muted);
   font-style: italic;
+}
+
+.copies-sold {
+    display: block;
+    margin: var(--spacing-roomy) auto;
+    text-align: center;
 }
 </style>
