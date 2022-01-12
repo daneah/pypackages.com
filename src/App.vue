@@ -64,7 +64,7 @@
 
       <p>
         Dane Hillard is a second-time author with Manning Books.
-        His first book, <em><Link href="https://thepythonpro.com" target="_blank" trusted>Practices of the Python Pro</Link></em>, has sold thousands of copies internationally and is translated into Korean and Chinese.
+        His first book, <em><Link href="https://thepythonpro.com" target="_blank" trusted>Practices of the Python Pro</Link></em>, is translated into several languages and has sold thousands of copies internationally.
       </p>
 
       <p>
