@@ -98,7 +98,7 @@ export default {
   },
   data () {
     return {
-        numChapters: "five",
+        numChapters: "six",
         numCopiesSold: 500,
     }
   },
