@@ -98,8 +98,8 @@ export default {
   },
   data () {
     return {
-        numChapters: "six",
-        numCopiesSold: 500,
+        numChapters: "seven",
+        numCopiesSold: 533,
     }
   },
   computed: {
