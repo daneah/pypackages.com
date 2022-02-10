@@ -3,12 +3,19 @@
     <ProductHuntBar v-if="fromProductHunt" />
 
     <header class="header">
-      <img
-        class="cover"
-        src="/publishing-python-packages-cover.jpg"
-        width="264"
-        height="331"
-      />
+      <div class="cover">
+        <a
+          href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e"
+          target="_blank"
+          rel="noopener nofollow"
+        >
+          <img
+            src="/publishing-python-packages-cover.jpg"
+            width="264"
+            height="331"
+          />
+        </a>
+      </div>
       <div class="title">
           <h1 class="heading--1">Publishing Python Packages</h1>
           <span>by <Link href="https://dane.engineering" target="_blank" trusted>Dane Hillard</Link></span>
@@ -130,9 +137,8 @@ export default {
 }
 
 .cover {
-  display: block;
-  margin: 0 auto var(--spacing-roomy) auto;
-  max-width: 100%;
+  margin-bottom: var(--spacing-roomy);
+  text-align: center;
 
   @at-root #{&}--with-banner {
     margin-top: var(--spacing-roomy);
