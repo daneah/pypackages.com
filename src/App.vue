@@ -106,7 +106,7 @@ export default {
   data () {
     return {
         numChapters: "seven",
-        numCopiesSold: 566,
+        numCopiesSold: 587,
     }
   },
   computed: {
