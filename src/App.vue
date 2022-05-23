@@ -61,6 +61,7 @@
 
       <p>
         Sign up below to be the first to know about updates on the book&mdash;the first {{ numChapters }} chapters are available in Manning's early access program (MEAP), where you can provide feedback as the book evolves.
+        The book is in its third and final review before heading to production.
       </p>
 
       <SignupForm class="email-signup" />
@@ -105,7 +106,7 @@ export default {
   },
   data () {
     return {
-        numChapters: "eight",
+        numChapters: "nine",
         numCopiesSold: 673,
     }
   },
