@@ -3,7 +3,7 @@
     class="link"
     :href="href"
     :target="target"
-    :rel="(target === '_blank' && !trusted) ? 'noopener' : null"
+    :rel="target === '_blank' && !trusted ? 'noopener' : null"
   >
     <slot />
   </a>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "Link",
+  name: "PrimaryLink",
   props: {
     href: {
       type: String,
@@ -24,9 +24,9 @@ export default {
     trusted: {
       type: Boolean,
       default: false,
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>

@@ -1,6 +1,6 @@
 <template>
-  <template v-if="href">
     <a
+      v-if="href"
       class="button"
       :href="href"
       :target="external ? '_blank' : ''"
@@ -8,20 +8,14 @@
     >
       <slot />
     </a>
-  </template>
-  <template v-else>
-    <button
-      class="button"
-      :type="type"
-    >
+    <button v-else class="button" :type="type">
       <slot />
     </button>
-  </template>
 </template>
 
 <script>
 export default {
-  name: "Button",
+  name: "PrimaryButton",
   props: {
     type: {
       type: String,
@@ -38,8 +32,8 @@ export default {
       required: false,
       default: true,
     },
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss" scoped>

@@ -1,8 +1,9 @@
 <template>
   <div class="banner">
-    <img class="logo" src="/producthunt-cat.png" height="250" width="250">
+    <img class="logo" src="/producthunt-cat.png" height="250" width="250" />
     <p class="offer">
-      Welcome, hunters! Get 35% off with the code <span class="offer__code">producthunt35</span> at checkout!
+      Welcome, hunters! Get 35% off with the code
+      <span class="offer__code">producthunt35</span> at checkout!
     </p>
   </div>
 </template>
@@ -10,7 +11,7 @@
 <script>
 export default {
   name: "ProductHuntBar",
-}
+};
 </script>
 
 <style lang="scss" scoped>

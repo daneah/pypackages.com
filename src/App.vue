@@ -17,92 +17,118 @@
         </a>
       </div>
       <div class="title">
-          <h1 class="heading--1">Publishing Python Packages</h1>
-          <span>by <Link href="https://dane.engineering" target="_blank" trusted>Dane Hillard</Link></span>
+        <h1 class="heading--1">Publishing Python Packages</h1>
+        <span
+          >by
+          <PrimaryLink href="https://dane.engineering" target="_blank" trusted
+            >Dane Hillard</PrimaryLink
+          ></span
+        >
       </div>
     </header>
 
     <aside class="copies-sold">
-        <em>
-            Over <strong>{{numCopiesSold}}</strong> copies sold so far!
-        </em>
+      <em>
+        Over <strong>{{ numCopiesSold }}</strong> copies sold so far!
+      </em>
 
-        <Button
-          class="buy-now"
-          href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e"
-          :external="true"
-        >
-            Buy now
-        </Button>
+      <PrimaryButton
+        class="buy-now"
+        href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e"
+        :external="true"
+      >
+        Buy now
+      </PrimaryButton>
     </aside>
 
     <aside class="social-proof">
-        <strong>What people are saying:</strong>
+      <strong>What people are saying:</strong>
 
-        <blockquote class="review-quote">
-            <p class="review-quote__body">
-                This is the best introduction to Python packaging I've ever read.
-                There are a lot of good best practices outlined.
-                I will be purchasing this book for each of our software team members.
-            </p>
-        </blockquote>
+      <blockquote class="review-quote">
+        <p class="review-quote__body">
+          This is the best introduction to Python packaging I've ever read.
+          There are a lot of good best practices outlined. I will be purchasing
+          this book for each of our software team members.
+        </p>
+      </blockquote>
 
-        <blockquote class="review-quote">
-            <p class="review-quote__body">
-                This books goes beyond software engineers to DevOps teams / SRE teams
-                and anyone generally interested in using Python in a production environment.
-            </p>
-        </blockquote>
+      <blockquote class="review-quote">
+        <p class="review-quote__body">
+          This books goes beyond software engineers to DevOps teams / SRE teams
+          and anyone generally interested in using Python in a production
+          environment.
+        </p>
+      </blockquote>
 
-        <blockquote class="review-quote">
-            <p class="review-quote__body">
-                As I read the first chapter I wished I could get my entire team to read it.
-            </p>
-        </blockquote>
+      <blockquote class="review-quote">
+        <p class="review-quote__body">
+          As I read the first chapter I wished I could get my entire team to
+          read it.
+        </p>
+      </blockquote>
 
-        <blockquote class="review-quote">
-            <p class="review-quote__body">
-                If you want to avoid struggling to learn how to package Python modules, this is the ONLY book to get.
-            </p>
-        </blockquote>
+      <blockquote class="review-quote">
+        <p class="review-quote__body">
+          If you want to avoid struggling to learn how to package Python
+          modules, this is the ONLY book to get.
+        </p>
+      </blockquote>
     </aside>
 
     <main>
       <p>
-        The life of a package maintainer can be hard.
-        Beyond writing working code, you have to triage issues, review pull requests, and create releases regularly.
-        Don't let the logistics of package management get in your way.
+        The life of a package maintainer can be hard. Beyond writing working
+        code, you have to triage issues, review pull requests, and create
+        releases regularly. Don't let the logistics of package management get in
+        your way.
       </p>
 
       <p>
-        I'm currently writing <strong><em><Link href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e" target="_blank">Publishing Python Packages</Link></em></strong>,
-        a book about creating a streamlined, repeatable process for authoring and maintaining Python packages.
+        I'm currently writing
+        <strong
+          ><em
+            ><PrimaryLink
+              href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e"
+              target="_blank"
+              >Publishing Python Packages</PrimaryLink
+            ></em
+          ></strong
+        >, a book about creating a streamlined, repeatable process for authoring
+        and maintaining Python packages.
       </p>
 
       <Promo />
 
       <p>
-        Whether you're looking to create your first published Python package or trying to reduce the maintenance burden of the packages you already work on, <em>Publishing Python Packages</em> has something for you:
+        Whether you're looking to create your first published Python package or
+        trying to reduce the maintenance burden of the packages you already work
+        on, <em>Publishing Python Packages</em> has something for you:
       </p>
 
       <ul>
         <li>
           Create an effective development environment for package authoring.
         </li>
+        <li>Explore the anatomy of a Python package in depth.</li>
         <li>
-          Explore the anatomy of a Python package in depth.
+          Create an automated, continuous integration pipeline for code quality
+          and testing.
         </li>
         <li>
-          Create an automated, continuous integration pipeline for code quality and testing.
-        </li>
-        <li>
-          Publish a Python package to the <Link href="https://pypi.org" target="_blank">Python Package Index</Link> (PyPI) and learn how to publish packages to private repositories for your organization.
+          Publish a Python package to the
+          <PrimaryLink href="https://pypi.org" target="_blank"
+            >Python Package Index</PrimaryLink
+          >
+          (PyPI) and learn how to publish packages to private repositories for
+          your organization.
         </li>
       </ul>
 
       <p>
-        Sign up below to be the first to know about updates on the book&mdash;all chapters are available in Manning's early access program (MEAP), where you can provide feedback as the book evolves.
-        The book is being edited after its final review before heading to production.
+        Sign up below to be the first to know about updates on the
+        book&mdash;all chapters are available in Manning's early access program
+        (MEAP), where you can provide feedback as the book evolves. The book is
+        being edited after its final review before heading to production.
       </p>
 
       <SignupForm class="email-signup" />
@@ -112,12 +138,20 @@
       <hr class="divider" />
 
       <p>
-        Dane Hillard is a second-time author with Manning Books.
-        His first book, <em><Link href="https://thepythonpro.com" target="_blank" trusted>Practices of the Python Pro</Link></em>, is translated into several languages and has sold thousands of copies internationally.
+        Dane Hillard is a second-time author with Manning Books. His first book,
+        <em
+          ><PrimaryLink href="https://thepythonpro.com" target="_blank" trusted
+            >Practices of the Python Pro</PrimaryLink
+          ></em
+        >, is translated into several languages and has sold thousands of copies
+        internationally.
       </p>
 
       <p>
-        To learn the basics of Python packaging, head over to the official <Link href="https://packaging.python.org/" target="_blank">Python Packaging User Guide</Link>.
+        To learn the basics of Python packaging, head over to the official
+        <PrimaryLink href="https://packaging.python.org/" target="_blank"
+          >Python Packaging User Guide</PrimaryLink
+        >.
       </p>
     </main>
 
@@ -128,46 +162,49 @@
 </template>
 
 <script>
-import Button from "./components/Button.vue";
-import Link from "./components/Link.vue";
+import PrimaryButton from "./components/PrimaryButton.vue";
+import PrimaryLink from "./components/PrimaryLink.vue";
 import Promo from "./components/Promo.vue";
 import ProductHuntBar from "./components/ProductHuntBar.vue";
 import SignupForm from "./components/SignupForm.vue";
 import Visuals from "./components/Visuals.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Button,
-    Link,
+    PrimaryButton,
+    PrimaryLink,
     Promo,
     ProductHuntBar,
     SignupForm,
     Visuals,
   },
-  data () {
+  data() {
     return {
-        numCopiesSold: 703,
-    }
+      numCopiesSold: 703,
+    };
   },
   computed: {
-    copyrightYear () {
+    copyrightYear() {
       const firstYear = 2021;
       const currentYear = new Date().getFullYear();
-      return (currentYear > firstYear) ? `${firstYear}–${currentYear}` : firstYear;
+      return currentYear > firstYear
+        ? `${firstYear}–${currentYear}`
+        : firstYear;
     },
-    fromProductHunt () {
-      return new URLSearchParams(window.location.search).get("ref") === "producthunt";
+    fromProductHunt() {
+      return (
+        new URLSearchParams(window.location.search).get("ref") === "producthunt"
+      );
     },
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss">
 #app {
   display: grid;
-  grid-template-areas:
-    ". content .";
+  grid-template-areas: ". content .";
   grid-template-columns: auto minmax(300px, 800px) auto;
 
   margin-top: 0;

@@ -8,17 +8,17 @@
   --font-weight-bold: 700;
 
   @media screen and (max-width: 600px) {
-      --font-size-body: 1rem;
+    --font-size-body: 1rem;
   }
 
-  --color-gainsboro: #DCE1DE;
-  --color-eton-blue: #9CC5A1;
-  --color-shiny-shamrock: #49A078;
+  --color-gainsboro: #dce1de;
+  --color-eton-blue: #9cc5a1;
+  --color-shiny-shamrock: #49a078;
   --color-skobeloff: #216869;
-  --color-dark-jungle-green: #1F2421;
-  --color-jungle-green: #5E6D64;
-  --color-product-hunt: #DA552F;
-  --color-white: #FFFFFF;
+  --color-dark-jungle-green: #1f2421;
+  --color-jungle-green: #5e6d64;
+  --color-product-hunt: #da552f;
+  --color-white: #ffffff;
 
   --color-font: var(--color-dark-jungle-green);
   --color-font-muted: var(--color-jungle-green);

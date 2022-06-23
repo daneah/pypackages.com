@@ -1,9 +1,6 @@
 <template>
   <div class="text-input">
-    <label
-      :for="id"
-      class="text-input__label"
-    >
+    <label :for="id" class="text-input__label">
       <slot />
     </label>
     <input
@@ -35,9 +32,9 @@ export default {
     name: {
       type: String,
       required: true,
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
