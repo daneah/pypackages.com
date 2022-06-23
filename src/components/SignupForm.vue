@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import PrimaryButton from "./Button.vue";
+import PrimaryButton from "./PrimaryButton.vue";
 import TextInput from "./TextInput.vue";
 
 export default {
