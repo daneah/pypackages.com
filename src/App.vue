@@ -21,11 +21,52 @@
           <span>by <Link href="https://dane.engineering" target="_blank" trusted>Dane Hillard</Link></span>
       </div>
     </header>
+
     <aside class="copies-sold">
         <em>
             Over <strong>{{numCopiesSold}}</strong> copies sold so far!
         </em>
+
+        <Button
+          class="buy-now"
+          href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e"
+          :external="true"
+        >
+            Buy now
+        </Button>
     </aside>
+
+    <aside class="social-proof">
+        <strong>What people are saying:</strong>
+
+        <blockquote class="review-quote">
+            <p class="review-quote__body">
+                This is the best introduction to Python packaging I've ever read.
+                There are a lot of good best practices outlined.
+                I will be purchasing this book for each of our software team members.
+            </p>
+        </blockquote>
+
+        <blockquote class="review-quote">
+            <p class="review-quote__body">
+                This books goes beyond software engineers to DevOps teams / SRE teams
+                and anyone generally interested in using Python in a production environment.
+            </p>
+        </blockquote>
+
+        <blockquote class="review-quote">
+            <p class="review-quote__body">
+                As I read the first chapter I wished I could get my entire team to read it.
+            </p>
+        </blockquote>
+
+        <blockquote class="review-quote">
+            <p class="review-quote__body">
+                If you want to avoid struggling to learn how to package Python modules, this is the ONLY book to get.
+            </p>
+        </blockquote>
+    </aside>
+
     <main>
       <p>
         The life of a package maintainer can be hard.
@@ -60,8 +101,8 @@
       </ul>
 
       <p>
-        Sign up below to be the first to know about updates on the book&mdash;the first {{ numChapters }} chapters are available in Manning's early access program (MEAP), where you can provide feedback as the book evolves.
-        The book is in its third and final review before heading to production.
+        Sign up below to be the first to know about updates on the book&mdash;all chapters are available in Manning's early access program (MEAP), where you can provide feedback as the book evolves.
+        The book is being edited after its final review before heading to production.
       </p>
 
       <SignupForm class="email-signup" />
@@ -106,8 +147,7 @@ export default {
   },
   data () {
     return {
-        numChapters: "nine",
-        numCopiesSold: 673,
+        numCopiesSold: 703,
     }
   },
   computed: {
@@ -164,8 +204,33 @@ export default {
 }
 
 .copies-sold {
-    display: block;
-    margin: var(--spacing-roomy) auto;
-    text-align: center;
+  display: block;
+  margin: var(--spacing-roomy) auto;
+  text-align: center;
+}
+
+.social-proof {
+  border: 1px solid var(--color-font-muted);
+  padding: var(--spacing-roomy);
+}
+
+.review-quote {
+  font-style: italic;
+  display: flex;
+}
+
+.review-quote::before {
+  content: "“";
+  color: var(--color-font-muted);
+  font-size: var(--font-size-huge);
+  font-family: "Times New Roman";
+}
+
+.review-quote__body {
+  margin-left: var(--spacing-cozy);
+}
+
+.buy-now {
+  margin-left: var(--spacing-cozy);
 }
 </style>
