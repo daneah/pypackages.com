@@ -13,5 +13,6 @@
     "@vitejs/plugin-vue": "^1.9.3",
     "sass": "^1.34.0",
     "vite": "^2.6.4"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }
