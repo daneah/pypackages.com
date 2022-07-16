@@ -181,7 +181,7 @@ export default {
   },
   data() {
     return {
-      numCopiesSold: 703,
+      numCopiesSold: 762,
     };
   },
   computed: {
