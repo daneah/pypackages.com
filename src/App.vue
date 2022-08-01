@@ -126,9 +126,7 @@
 
       <p>
         Sign up below to be the first to know about updates on the
-        book&mdash;all chapters are available in Manning's early access program
-        (MEAP), where you can provide feedback as the book evolves. The book is
-        being edited after its final review before heading to production.
+        book&mdash;right now the production team is working on making the book ready for print.
       </p>
 
       <SignupForm class="email-signup" />
@@ -181,7 +179,7 @@ export default {
   },
   data() {
     return {
-      numCopiesSold: 762,
+      numCopiesSold: 790,
     };
   },
   computed: {

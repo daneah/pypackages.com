@@ -44,5 +44,72 @@
 
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@type": "Book",
+            "name": "Publishing Python Packages",
+            "description": "Learn to create, publish, and maintain shared Python software through practical examples.",
+            "author": {
+                "@type": "Person",
+                "givenName": "Dane",
+                "familyName": "Hillard",
+                "sameAs": [
+                    "https://dane.engineering",
+                    "https://linkedin.com/in/danehillard"
+                ]
+            },
+            "url" : "https://pypackages.com",
+            "isbn": "9781617299919",
+            "bookFormat": ["EBook", "Paperback"],
+            "keywords": ["Python", "Python packages", "Python libraries", "PyPI"],
+            "publisher": {
+                "@type": "Organization",
+                "name": "Manning Publications",
+                "url": "https://www.manning.com"
+            },
+            "review": [
+                {
+                    "@type": "UserReview",
+                    "reviewBody": "This is the best introduction to Python packaging I've ever read. There are a lot of good best practices outlined. I will be purchasing this book for each of our software team members."
+                },
+                {
+                    "@type": "UserReview",
+                    "reviewBody": "This books goes beyond software engineers to DevOps teams / SRE teams and anyone generally interested in using Python in a production environment."
+                },
+                {
+                    "@type": "UserReview",
+                    "reviewBody": "As I read the first chapter I wished I could get my entire team to read it."
+                },
+                {
+                    "@type": "UserReview",
+                    "reviewBody": "If you want to avoid struggling to learn how to package Python modules, this is the ONLY book to get."
+                }
+            ],
+            "teaches": [
+                {
+                    "@type": "DefinedTerm",
+                    "name": "Python packaging",
+                    "description": "Python packaging is a set of practices and standards that help Python developers share code with other developers."
+                },
+                {
+                    "@type": "DefinedTerm",
+                    "name": "continuous integration",
+                    "description": "Continuous integration is the practice of incorporating software changes frequently to reduce integration costs."
+                },
+                {
+                    "@type": "DefinedTerm",
+                    "name": "Software testing",
+                    "description": "Software testing is the practice of manually and automatically verifying the actual behavior of software against expected behavior based on the requirements of the software."
+                }
+            ],
+            "sameAs" : [
+                "https://www.manning.com/books/publishing-python-packages",
+                "https://www.amazon.com/Publishing-Python-Packages-Dane-Hillard/dp/161729991X/",
+                "https://www.google.com/books/edition/Publishing_Python_Packages/lIeszgEACAAJ",
+                "https://github.com/daneah/publishing-python-packages/"
+            ]
+        }
+    </script>
   </body>
 </html>
