@@ -1,7 +1,8 @@
-node_modules
+.idea/
+dist/
+dist-ssr/
+node_modules/
 .DS_Store
-dist
-dist-ssr
 *.local
 
 # Yarn (Zero installs approach)
