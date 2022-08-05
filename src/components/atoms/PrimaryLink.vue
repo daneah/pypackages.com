@@ -1,6 +1,6 @@
 <template>
   <a
-    class="link"
+    :class="['link', variant ? `link--${variant}` : null]"
     :href="href"
     :target="target"
     :rel="target === '_blank' && !trusted ? 'noopener' : null"
@@ -25,6 +25,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    variant: {
+      type: String,
+      default: ""
+    },
   },
 };
 </script>
@@ -32,5 +36,9 @@ export default {
 <style lang="scss" scoped>
 .link {
   color: var(--color-interactive-text);
+}
+
+.link--dark {
+  color: var(--color-font);
 }
 </style>

@@ -1,10 +1,15 @@
 <template>
   <form
+    class="email-signup"
     action="https://danehillard.us3.list-manage.com/subscribe/post?u=7b074cb21df3367b6d1c4f049&amp;id=25089b656d"
     method="post"
     target="_blank"
     novalidate
   >
+    <p>
+      Sign up below to be the first to know about updates on the
+      book&mdash;right now the production team is working on making the book ready for print.
+    </p>
     <TextInput
       id="mce-EMAIL"
       class="required email"
@@ -32,8 +37,8 @@
 </template>
 
 <script>
-import PrimaryButton from "./PrimaryButton.vue";
-import TextInput from "./TextInput.vue";
+import PrimaryButton from "./atoms/PrimaryButton.vue";
+import TextInput from "./atoms/TextInput.vue";
 
 export default {
   name: "SignupForm",
@@ -43,3 +48,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.email-signup {
+  margin: var(--spacing-roomy) 0;
+}
+</style>
