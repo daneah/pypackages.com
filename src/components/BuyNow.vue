@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      numCopiesSold: 814,
+      numCopiesSold: 826,
     };
   },
 }

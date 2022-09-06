@@ -13,7 +13,7 @@
       ><PrimaryLink
           href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e"
           target="_blank"
-      >Publishing Python Packages</PrimaryLink
+      >Publishing Python Packages: Test, share, and automate your projects</PrimaryLink
       ></em
       ></strong
       > is a book about creating a streamlined, repeatable process for authoring
