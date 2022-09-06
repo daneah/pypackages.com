@@ -65,6 +65,13 @@ $levels: 6;
   }
 }
 
+.subtitle {
+  display: block;
+  font-style: italic;
+  font-size: calc(1em * 2 / 3);
+  color: var(--color-font-muted);
+}
+
 p {
   max-width: 65ch;
   text-align: justify;

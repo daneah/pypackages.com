@@ -10,12 +10,12 @@
             src="/publishing-python-packages-cover.jpg"
             width="264"
             height="331"
-            alt="Book cover for Publishing Python Packages by Dane Hillard from Manning Books"
+            alt="Book cover for Publishing Python Packages: Test, share, and automate your projects by Dane Hillard from Manning Books"
         />
       </a>
     </div>
     <div class="title">
-      <h1 class="heading--1">Publishing Python Packages</h1>
+        <h1 class="heading--1">Publishing Python Packages<span class="subtitle">Test, share, and automate your projects</span></h1>
       <span
       >by
           <PrimaryLink href="https://dane.engineering" target="_blank" trusted

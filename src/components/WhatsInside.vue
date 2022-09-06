@@ -3,7 +3,8 @@
     <p>
       Whether you're looking to create your first published Python package or
       trying to reduce the maintenance burden of the packages you already work
-      on, <em>Publishing Python Packages</em> has something for you:
+      on, <em>Publishing Python Packages: Test, share, and automate your projects</em>
+      has something for you:
     </p>
 
     <ul>
