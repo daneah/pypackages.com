@@ -24,7 +24,9 @@
         >by
         <PrimaryLink href="https://dane.engineering" target="_blank" trusted
           >Dane Hillard</PrimaryLink
-        ></span
+        >
+        with foreword by
+        <PrimaryLink href="https://www.dabeaz.com/">David Beazley</PrimaryLink></span
       >
     </div>
   </header>

@@ -3,7 +3,7 @@
     :class="['link', variant ? `link--${variant}` : null]"
     :href="href"
     :target="target"
-    :rel="target === '_blank' && !trusted ? 'noopener' : null"
+    :rel="target === '_blank' && !trusted ? 'noopener nofollow' : null"
   >
     <slot />
   </a>
