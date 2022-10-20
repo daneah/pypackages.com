@@ -61,9 +61,7 @@ export default {
   },
   computed: {
     fromProductHunt() {
-      return (
-        new URLSearchParams(window.location.search).get("ref") === "producthunt"
-      );
+      return new URLSearchParams(window.location.search).get("ref") === "producthunt";
     },
   },
 };

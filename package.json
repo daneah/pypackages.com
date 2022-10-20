@@ -26,7 +26,7 @@
   },
   "packageManager": "yarn@3.2.1",
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md,vue}": [
       "yarn prettier --write"
     ]
   }

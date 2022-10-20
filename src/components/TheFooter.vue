@@ -11,12 +11,10 @@ export default {
     copyrightYear() {
       const firstYear = 2021;
       const currentYear = new Date().getFullYear();
-      return currentYear > firstYear
-          ? `${firstYear}–${currentYear}`
-          : firstYear;
+      return currentYear > firstYear ? `${firstYear}–${currentYear}` : firstYear;
     },
   },
-}
+};
 </script>
 
 <style scoped>

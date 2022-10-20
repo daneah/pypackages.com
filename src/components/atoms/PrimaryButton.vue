@@ -1,16 +1,16 @@
 <template>
-    <a
-      v-if="href"
-      class="button"
-      :href="href"
-      :target="external ? '_blank' : ''"
-      :rel="external ? 'noopener nofollow' : ''"
-    >
-      <slot />
-    </a>
-    <button v-else class="button" :type="type">
-      <slot />
-    </button>
+  <a
+    v-if="href"
+    class="button"
+    :href="href"
+    :target="external ? '_blank' : ''"
+    :rel="external ? 'noopener nofollow' : ''"
+  >
+    <slot />
+  </a>
+  <button v-else class="button" :type="type">
+    <slot />
+  </button>
 </template>
 
 <script>
