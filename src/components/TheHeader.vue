@@ -26,7 +26,9 @@
           >Dane Hillard</PrimaryLink
         >
         with foreword by
-        <PrimaryLink href="https://www.dabeaz.com/">David Beazley</PrimaryLink></span
+        <PrimaryLink href="https://www.dabeaz.com/" target="_blank"
+          >David Beazley</PrimaryLink
+        ></span
       >
     </div>
   </header>
