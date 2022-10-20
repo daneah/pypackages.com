@@ -5,9 +5,9 @@
     </em>
 
     <PrimaryButton
-        class="buy-now"
-        href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e"
-        :external="true"
+      class="buy-now"
+      href="https://www.manning.com/books/publishing-python-packages?utm_source=danehillard&utm_medium=affiliate&utm_campaign=book_hillard3_publishing_8_26_21&a_aid=danehillard&a_bid=3698229e"
+      :external="true"
     >
       Buy now
     </PrimaryButton>
@@ -27,7 +27,7 @@ export default {
       numCopiesSold: 850,
     };
   },
-}
+};
 </script>
 
 <style scoped>

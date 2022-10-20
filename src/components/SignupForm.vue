@@ -7,8 +7,8 @@
     novalidate
   >
     <p>
-      Sign up below to be the first to know about updates on the
-      book&mdash;right now the production team is working on making the book ready for print.
+      Sign up below to be the first to know about updates on the book&mdash;right now the production
+      team is working on making the book ready for print.
     </p>
     <TextInput
       id="mce-EMAIL"
@@ -22,12 +22,7 @@
 
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px" aria-hidden="true">
-      <input
-        type="text"
-        name="b_7b074cb21df3367b6d1c4f049_25089b656d"
-        tabindex="-1"
-        value=""
-      />
+      <input type="text" name="b_7b074cb21df3367b6d1c4f049_25089b656d" tabindex="-1" value="" />
     </div>
 
     <PrimaryButton type="submit" name="subscribe" id="mc-embedded-subscribe"

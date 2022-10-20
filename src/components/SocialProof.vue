@@ -4,31 +4,29 @@
 
     <blockquote class="review-quote">
       <p class="review-quote__body">
-        This is the best introduction to Python packaging I've ever read.
-        There are a lot of good best practices outlined. I will be purchasing
-        this book for each of our software team members.
+        This is the best introduction to Python packaging I've ever read. There are a lot of good
+        best practices outlined. I will be purchasing this book for each of our software team
+        members.
       </p>
     </blockquote>
 
     <blockquote class="review-quote">
       <p class="review-quote__body">
-        This books goes beyond software engineers to DevOps teams / SRE teams
-        and anyone generally interested in using Python in a production
-        environment.
+        This books goes beyond software engineers to DevOps teams / SRE teams and anyone generally
+        interested in using Python in a production environment.
       </p>
     </blockquote>
 
     <blockquote class="review-quote">
       <p class="review-quote__body">
-        As I read the first chapter I wished I could get my entire team to
-        read it.
+        As I read the first chapter I wished I could get my entire team to read it.
       </p>
     </blockquote>
 
     <blockquote class="review-quote">
       <p class="review-quote__body">
-        If you want to avoid struggling to learn how to package Python
-        modules, this is the ONLY book to get.
+        If you want to avoid struggling to learn how to package Python modules, this is the ONLY
+        book to get.
       </p>
     </blockquote>
   </aside>
@@ -36,8 +34,8 @@
 
 <script>
 export default {
-  name: "SocialProof"
-}
+  name: "SocialProof",
+};
 </script>
 
 <style scoped>
