@@ -1,5 +1,6 @@
 <template>
   <section>
+    <p>Are you wondering how to publish a Python package in {{ currentYear }}?</p>
     <p>
       The life of a package maintainer can be hard. Beyond writing working code, you have to triage
       issues, review pull requests, and create releases regularly. Don't let the logistics of
@@ -29,6 +30,11 @@ export default {
   name: "Pitch",
   components: {
     PrimaryLink,
+  },
+  computed: {
+    currentYear() {
+      return new Date().getFullYear();
+    },
   },
 };
 </script>
