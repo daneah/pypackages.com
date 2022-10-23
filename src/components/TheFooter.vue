@@ -1,6 +1,7 @@
 <template>
   <footer class="footer">
     <span class="copyright">© {{ copyrightYear }} Dane Hillard</span>
+    <p class="affiliate">As an Amazon Associate I earn from qualifying purchases.</p>
   </footer>
 </template>
 
@@ -22,6 +23,7 @@ export default {
   margin-top: var(--spacing-roomy);
 }
 
+.affiliate,
 .copyright {
   color: var(--color-font-muted);
   font-style: italic;

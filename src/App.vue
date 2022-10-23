@@ -4,15 +4,15 @@
       <ProductHuntBar v-if="fromProductHunt" />
 
       <TheHeader />
-      <BuyNow />
-      <SocialProof />
 
       <main>
         <Pitch />
+        <SocialProof />
+        <BuyNow />
         <Promo />
-        <FreeContent />
         <WhatsInside />
         <SignupForm />
+        <FreeContent />
         <Visuals />
 
         <hr class="divider" />
