@@ -12,9 +12,9 @@ export default {
   name: "Promo",
   data() {
     return {
-      code: "mlhillard350",
-      benefit: "Get 50% off in early access",
-      expiration: new Date("2021-11-23"),
+      code: "pbhillard3",
+      benefit: "Get 45% off until December 28th",
+      expiration: new Date("2021-12-28"),
     };
   },
   computed: {
