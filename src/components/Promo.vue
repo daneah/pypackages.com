@@ -14,7 +14,7 @@ export default {
     return {
       code: "pbhillard3",
       benefit: "Get 45% off until December 28th",
-      expiration: new Date("2021-12-28"),
+      expiration: new Date("2022-12-28"),
     };
   },
   computed: {
