@@ -7,8 +7,8 @@
     novalidate
   >
     <p>
-      Sign up below to be the first to know about updates on the book&mdash;right now the production
-      team is working on making the book ready for print.
+      Sign up below to receive important updates about the book. Right now the book is available in
+      print and eBook from Manning, and should be available on Amazon and Kindle soon.
     </p>
     <TextInput
       id="mce-EMAIL"
