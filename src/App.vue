@@ -6,13 +6,14 @@
       <TheHeader />
 
       <main>
+        <BuyNow />
         <Pitch />
         <SocialProof />
-        <BuyNow />
         <Promo />
         <WhatsInside />
         <SignupForm />
         <FreeContent />
+        <Informational />
         <Visuals />
 
         <hr class="divider" />
@@ -35,6 +36,7 @@ import Visuals from "./components/Visuals.vue";
 import SocialProof from "./components/SocialProof.vue";
 import FreeContent from "./components/FreeContent.vue";
 import TheFooter from "./components/TheFooter.vue";
+import Informational from "./components/Informational.vue";
 import AboutTheAuthor from "./components/AboutTheAuthor.vue";
 import WhatsInside from "./components/WhatsInside.vue";
 import BuyNow from "./components/BuyNow.vue";
@@ -52,6 +54,7 @@ export default {
     WhatsInside,
     AboutTheAuthor,
     TheFooter,
+    Informational,
     FreeContent,
     SocialProof,
     Promo,
