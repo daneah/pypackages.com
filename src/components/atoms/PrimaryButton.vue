@@ -8,7 +8,11 @@
   >
     <slot />
   </a>
-  <button v-else class="button" :type="type">
+  <button
+    v-else
+    class="button"
+    :type="type"
+  >
     <slot />
   </button>
 </template>

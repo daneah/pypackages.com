@@ -14,7 +14,12 @@
         </PrimaryLink>
       </li>
       <li>
-        <PrimaryLink href="https://amzn.to/3TI6ine" target="_blank">Buy from Amazon</PrimaryLink>
+        <PrimaryLink
+          href="https://amzn.to/3TI6ine"
+          target="_blank"
+        >
+          Buy from Amazon
+        </PrimaryLink>
         (affiliate link)
       </li>
     </ul>
@@ -31,7 +36,7 @@ export default {
   },
   data() {
     return {
-      numCopiesSold: 1250,
+      numCopiesSold: 2000,
     };
   },
 };

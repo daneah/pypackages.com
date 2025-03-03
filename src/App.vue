@@ -16,7 +16,7 @@
         <Informational />
         <Visuals />
 
-        <hr class="divider" />
+        <hr class="divider">
 
         <AboutTheAuthor />
         <PyPA />

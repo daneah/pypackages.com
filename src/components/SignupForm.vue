@@ -21,13 +21,25 @@
     </TextInput>
 
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px" aria-hidden="true">
-      <input type="text" name="b_7b074cb21df3367b6d1c4f049_25089b656d" tabindex="-1" value="" />
+    <div
+      style="position: absolute; left: -5000px"
+      aria-hidden="true"
+    >
+      <input
+        type="text"
+        name="b_7b074cb21df3367b6d1c4f049_25089b656d"
+        tabindex="-1"
+        value=""
+      >
     </div>
 
-    <PrimaryButton type="submit" name="subscribe" id="mc-embedded-subscribe"
-      >Subscribe</PrimaryButton
+    <PrimaryButton
+      id="mc-embedded-subscribe"
+      type="submit"
+      name="subscribe"
     >
+      Subscribe
+    </PrimaryButton>
   </form>
 </template>
 
