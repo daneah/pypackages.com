@@ -1,7 +1,9 @@
 <template>
   <footer class="footer">
     <span class="copyright">© {{ copyrightYear }} Dane Hillard</span>
-    <p class="affiliate">As an Amazon Associate I earn from qualifying purchases.</p>
+    <p class="affiliate">
+      As an Amazon Associate I earn from qualifying purchases.
+    </p>
   </footer>
 </template>
 

@@ -35,6 +35,8 @@ export default {
 
 <style lang="scss" scoped>
 .link {
+  display: inline-block;
+  vertical-align: top;
   color: var(--color-interactive-text);
 }
 

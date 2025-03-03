@@ -13,7 +13,12 @@
       <li>Create an automated, continuous integration pipeline for code quality and testing.</li>
       <li>
         Publish a Python package to the
-        <PrimaryLink href="https://pypi.org" target="_blank">Python Package Index</PrimaryLink>
+        <PrimaryLink
+          href="https://pypi.org"
+          target="_blank"
+        >
+          Python Package Index
+        </PrimaryLink>
         (PyPI) and learn how to publish packages to private repositories for your organization.
       </li>
     </ul>

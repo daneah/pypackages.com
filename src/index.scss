@@ -7,10 +7,6 @@
   --font-size-huge: 3rem;
   --font-weight-bold: 700;
 
-  @media screen and (max-width: 600px) {
-    --font-size-body: 1rem;
-  }
-
   --color-gainsboro: #dce1de;
   --color-eton-blue: #9cc5a1;
   --color-shiny-shamrock: #49a078;
@@ -32,6 +28,11 @@
   --spacing-roomy: 3rem;
 
   --border-radius-button: 2px;
+
+  @media screen and (max-width: 600px) {
+    --font-size-body: 1rem;
+  }
+
 }
 
 * {
