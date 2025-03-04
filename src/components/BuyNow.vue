@@ -22,6 +22,14 @@
         </PrimaryLink>
         (affiliate link)
       </li>
+      <li>
+        <PrimaryLink
+          href="https://learning.oreilly.com/library/view/publishing-python-packages/9781617299919/"
+          target="_blank"
+        >
+          Read on O'Reilly
+        </PrimaryLink>
+      </li>
     </ul>
   </aside>
 </template>
