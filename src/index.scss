@@ -53,7 +53,7 @@ body {
   }
 }
 
-* + * {
+* + *:not(a) {
   margin-top: var(--spacing-comfortable);
 }
 
