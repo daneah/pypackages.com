@@ -14,12 +14,7 @@
         </PrimaryLink>
       </li>
       <li>
-        <PrimaryLink
-          href="https://amzn.to/3TI6ine"
-          target="_blank"
-        >
-          Buy from Amazon
-        </PrimaryLink>
+        <PrimaryLink href="https://amzn.to/3TI6ine" target="_blank">Buy from Amazon</PrimaryLink>
         (affiliate link)
       </li>
       <li>

@@ -1,9 +1,6 @@
 <template>
   <div class="text-input">
-    <label
-      :for="id"
-      class="text-input__label"
-    >
+    <label :for="id" class="text-input__label">
       <slot />
     </label>
     <input
@@ -12,7 +9,7 @@
       :type="type"
       class="text-input__input"
       :name="name"
-    >
+    />
   </div>
 </template>
 

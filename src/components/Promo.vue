@@ -1,10 +1,8 @@
 <template>
-  <div
-    v-if="isValid"
-    class="promo"
-  >
+  <div v-if="isValid" class="promo">
     <p>
-      {{ benefit }} with the code <code>{{ code }}</code>!
+      {{ benefit }} with the code <code>{{ code }}</code
+      >!
     </p>
   </div>
 </template>

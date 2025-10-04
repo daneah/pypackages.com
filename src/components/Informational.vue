@@ -1,6 +1,7 @@
 <template>
   <p>
-    In addition to English, <em>Publishing Python Packages</em> is available in the following languages:
+    In addition to English, <em>Publishing Python Packages</em> is available in the following
+    languages:
   </p>
 
   <ul>
@@ -12,11 +13,12 @@
         Russian
       </PrimaryLink>
     </li>
+    <li>
+      <PrimaryLink href="https://www.tenlong.com.tw/products/9787302694007" target="_blank">
+        Simplified Chinese
+      </PrimaryLink>
+    </li>
   </ul>
-
-  <p>
-    and is currently being translated into Simplified Chinese.
-  </p>
 </template>
 
 <script>
