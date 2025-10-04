@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="visuals"
-    role="img"
-    aria-label="Packaging Python code and publishing it to be shared"
-  >
+  <div class="visuals" role="img" aria-label="Packaging Python code and publishing it to be shared">
     🐍&nbsp;&nbsp;📦&nbsp;&nbsp;&nbsp;⬆️
   </div>
 </template>

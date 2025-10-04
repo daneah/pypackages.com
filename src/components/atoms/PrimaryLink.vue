@@ -4,9 +4,8 @@
     :href="href"
     :target="target"
     :rel="target === '_blank' && !trusted ? 'noopener nofollow' : null"
-  >
-    <slot />
-  </a>
+    ><slot
+  /></a>
 </template>
 
 <script>
@@ -35,7 +34,6 @@ export default {
 
 <style lang="scss" scoped>
 .link {
-  display: inline-block;
   vertical-align: top;
   color: var(--color-interactive-text);
 }
